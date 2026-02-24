@@ -1,0 +1,144 @@
+# 📌 Smart Bookmark CRUD Application
+
+A full-stack Bookmark Manager built entirely using Python.
+
+This application allows users to:
+- Add a bookmark
+- View all bookmarks
+- Update a bookmark
+- Delete a bookmark
+
+Built using:
+- Python
+- Streamlit (Frontend + Backend)
+- SQLite (Database)
+
+---
+
+## 🚀 Live Demo
+
+(After deployment, paste your live URL here)
+
+Example:
+https://your-app-name.streamlit.app
+
+---
+
+## 🛠️ Technologies Used
+
+- Python 3.x
+- Streamlit
+- SQLite (inbuilt database)
+
+---
+
+## 📂 Project Structure
+
+smart_bookmark/
+│
+├── app.py
+├── bookmarks.db (auto-created)
+├── requirements.txt
+└── README.md
+
+---
+
+## ⚙️ Installation & Setup
+
+### Step 1: Clone the Repository
+
+git clone https://github.com/your-username/smart-bookmark.git
+
+cd smart-bookmark
+
+
+### Step 2: Create Virtual Environment (Optional but Recommended)
+
+python -m venv venv
+
+Activate virtual environment:
+
+Windows:
+venv\Scripts\activate
+
+Mac/Linux:
+source venv/bin/activate
+
+
+### Step 3: Install Dependencies
+
+pip install -r requirements.txt
+
+
+### Step 4: Run the Application
+
+streamlit run app.py
+
+
+Application will open in browser:
+
+http://localhost:8501
+
+---
+
+## 📌 Features
+
+- Create bookmark with Title and URL
+- Read/View all bookmarks
+- Update existing bookmark
+- Delete bookmark
+- Simple and user-friendly UI
+- SQLite persistent storage
+
+---
+
+## 🗄️ Database Schema
+
+Table: bookmarks
+
+| Column | Type |
+|--------|------|
+| id     | Integer (Primary Key) |
+| title  | Text |
+| url    | Text |
+
+---
+
+## 🌐 Deployment
+
+This project can be deployed easily on:
+
+- Streamlit Community Cloud
+- Render
+- Railway
+
+### To Deploy on Streamlit Cloud:
+
+1. Push code to GitHub
+2. Login to Streamlit Cloud
+3. Click "New App"
+4. Select your repository
+5. Deploy
+
+---
+
+## 🎯 Future Enhancements
+
+- User Authentication (Login/Signup)
+- Search Feature
+- Bookmark Categories
+- Tags Support
+- Responsive UI Improvements
+
+---
+
+## 👩‍💻 Author
+
+Tejaswini Kl  
+MCA Student  
+
+---
+
+## 📜 License
+
+This project is created for educational purposes.
